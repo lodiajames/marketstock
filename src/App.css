@@ -1,0 +1,207 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* APP */
+body {
+  background-color: #f9f9f9;
+}
+.App {
+  max-width: 600px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+/* Navbar styles */
+.navbar {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: antiquewhite;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffd700; /* Change color on hover */
+}
+.welcome-container {
+  margin-top: 100px;
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+p {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.feature:hover {
+  background-color: #a2bcd8;
+  opacity: 1;
+}
+.feature h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.feature p {
+  color: #666;
+  font-size: 1rem;
+}
+/* Container styling */
+.stock-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Heading styling */
+.stock-page h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Stock list styling */
+.stock-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.stock-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stock information styling */
+.stock-info {
+  display: flex;
+  align-items: center;
+}
+
+.stock-company {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.stock-price {
+  font-size: 1.2rem;
+}
+
+/* Add button styling */
+.add-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+.watchlist-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.watchlist-page h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.watchlist-page {
+  list-style: none;
+  padding: 0;
+}
+.watchlist-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.watchlist-info {
+  display: flex;
+  align-items: center;
+}
+.watchlist-company {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.watchlist-price {
+  font-size: 1.2rem;
+}
+.delete-btn {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: red;
+  color: #f9f9f9;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #cc0036;
+}
